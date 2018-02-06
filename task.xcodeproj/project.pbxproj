@@ -13,6 +13,11 @@
 		98735B9A20299BD800FEFED7 /* task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98735B9820299BD800FEFED7 /* task.xcdatamodeld */; };
 		98735B9C20299BD800FEFED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98735B9B20299BD800FEFED7 /* Assets.xcassets */; };
 		98735B9F20299BD800FEFED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98735B9D20299BD800FEFED7 /* LaunchScreen.storyboard */; };
+		98735BA72029B10D00FEFED7 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98735BA62029B10D00FEFED7 /* RepositoryCell.swift */; };
+		98735BA92029B7B600FEFED7 /* RepClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98735BA82029B7B600FEFED7 /* RepClass.swift */; };
+		98E19BD22029D71F00B4024B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E19BD12029D71F00B4024B /* WebViewController.swift */; };
+		98E19BD42029E95A00B4024B /* StarGazerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E19BD32029E95A00B4024B /* StarGazerViewController.swift */; };
+		98E19BD62029F04100B4024B /* stargazerUesrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E19BD52029F04100B4024B /* stargazerUesrs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		98735B9B20299BD800FEFED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98735B9E20299BD800FEFED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98735BA020299BD800FEFED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98735BA62029B10D00FEFED7 /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
+		98735BA82029B7B600FEFED7 /* RepClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepClass.swift; sourceTree = "<group>"; };
+		98E19BD12029D71F00B4024B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		98E19BD32029E95A00B4024B /* StarGazerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGazerViewController.swift; sourceTree = "<group>"; };
+		98E19BD52029F04100B4024B /* stargazerUesrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stargazerUesrs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				98735B9120299BD700FEFED7 /* AppDelegate.swift */,
 				98735B9320299BD700FEFED7 /* ViewController.swift */,
+				98735BA82029B7B600FEFED7 /* RepClass.swift */,
 				98735B9520299BD800FEFED7 /* Main.storyboard */,
+				98E19BD52029F04100B4024B /* stargazerUesrs.swift */,
+				98E19BD32029E95A00B4024B /* StarGazerViewController.swift */,
+				98E19BD12029D71F00B4024B /* WebViewController.swift */,
+				98735BA62029B10D00FEFED7 /* RepositoryCell.swift */,
 				98735B9B20299BD800FEFED7 /* Assets.xcassets */,
 				98735B9D20299BD800FEFED7 /* LaunchScreen.storyboard */,
 				98735BA020299BD800FEFED7 /* Info.plist */,
@@ -140,8 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				98735B9420299BD700FEFED7 /* ViewController.swift in Sources */,
+				98E19BD42029E95A00B4024B /* StarGazerViewController.swift in Sources */,
+				98E19BD22029D71F00B4024B /* WebViewController.swift in Sources */,
 				98735B9A20299BD800FEFED7 /* task.xcdatamodeld in Sources */,
+				98E19BD62029F04100B4024B /* stargazerUesrs.swift in Sources */,
+				98735BA92029B7B600FEFED7 /* RepClass.swift in Sources */,
 				98735B9220299BD700FEFED7 /* AppDelegate.swift in Sources */,
+				98735BA72029B10D00FEFED7 /* RepositoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
